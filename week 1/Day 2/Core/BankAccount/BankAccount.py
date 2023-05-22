@@ -1,4 +1,4 @@
-class BankaAccount:
+class BankAccount:
     def __init__(self, int_rate = 0.01, balance = 0):
         self.int_rate = int_rate
         self.balance = balance
@@ -22,8 +22,8 @@ class BankaAccount:
             self.balance += interest
 print = "========================================================"
 # create acconts
-account1 = BankaAccount()
-account2 = BankaAccount()
+account1 = BankAccount()
+account2 = BankAccount()
 
 # Account 1 transactions
 account1.deposit(500)

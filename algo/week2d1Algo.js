@@ -15,7 +15,6 @@ function call (arr){
 
 console.log(call(arr))
 
-// how to do a fonction array
 
 
 

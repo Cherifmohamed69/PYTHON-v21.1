@@ -17,10 +17,10 @@ def success():
     
 # app.run(debug=True) should be the very last statement! 
 
-@app.route('/hello/<name>') # for a route '/hello/____' anything after '/hello/' gets passed as a variable 'name'
-def hello(name):
+# @app.route('/hello/<name>') # for a route '/hello/____' anything after '/hello/' gets passed as a variable 'name'
+# def hello(name):
 
-    return "Hello, " + name
+#     return "Hello, " + name
 
 
 @app.route('/users/<username>/<id>') # for a route '/users/____/____', two parameters in the url get passed as username and id

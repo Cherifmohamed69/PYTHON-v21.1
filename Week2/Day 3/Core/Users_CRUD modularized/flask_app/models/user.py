@@ -30,5 +30,3 @@ class User:
         query ="SELECT FROM users WHERE id=%(id)s;"
         result = connectToMySQL('users_shema').query_db(query,data)
         return cls (result[0])
-        
-    
